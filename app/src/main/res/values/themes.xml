@@ -21,4 +21,13 @@
         <item name="colorAccent">@color/tomato_200</item>
     </style>
 
+    <style name="Theme.Ecommerce_App.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Ecommerce_App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Ecommerce_App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
