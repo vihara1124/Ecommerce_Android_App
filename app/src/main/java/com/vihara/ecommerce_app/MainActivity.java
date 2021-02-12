@@ -1,6 +1,5 @@
 package com.vihara.ecommerce_app;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
