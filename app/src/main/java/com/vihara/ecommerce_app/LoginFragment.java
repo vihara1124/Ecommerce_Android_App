@@ -24,10 +24,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
+//import com.google.android.gms.tasks.OnCompleteListener;
+//import com.google.android.gms.tasks.Task;
+//import com.google.firebase.auth.AuthResult;
+//import com.google.firebase.auth.FirebaseAuth;
 
 import static com.vihara.ecommerce_app.RegisterActivity.onResetPasswordFragment;
 
@@ -52,7 +52,7 @@ public class LoginFragment extends Fragment {
     private ImageButton closeBtn;
     private Button signInBtn;
 
-    private FirebaseAuth firebaseAuth;
+    //private FirebaseAuth firebaseAuth;
 
     private String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.[a-z]+";
 
@@ -75,7 +75,7 @@ public class LoginFragment extends Fragment {
         closeBtn = view.findViewById(R.id.sign_in_close_btn);
         signInBtn = view.findViewById(R.id.sign_in_btn);
 
-        firebaseAuth = FirebaseAuth.getInstance();
+        //firebaseAuth = FirebaseAuth.getInstance();
 
         return view;
     }
