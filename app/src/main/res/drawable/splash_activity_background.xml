@@ -3,10 +3,10 @@
 
     <item>
         <shape>
-            <solid android:color="#ffffff"/>
+            <solid android:color="@color/white"/>
         </shape>
     </item>
     <item>
-        <bitmap android:src="@mipmap/ic_launcher_round" android:gravity="center"/>
+        <bitmap android:src="@mipmap/logo_round" android:gravity="center"/>
     </item>
 </layer-list>
